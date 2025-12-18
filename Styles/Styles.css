@@ -1,0 +1,128 @@
+body{
+    color: paleturquoise;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    font: size 36px;
+    color: rgb(145, 220, 245);
+    text-align:center;
+}
+
+h2{
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: italic;
+}
+
+h3{
+    color:paleturquoise;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size:25px;
+}
+
+li{
+    font-size:18px;
+}
+
+#pinkparagraph{
+    color:pink
+}
+
+.pretty{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ugly{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.common{
+    background-color: transparent;
+    border: 2px black;
+    position: absolute;
+    text-align: center;
+}
+
+.left{
+    top: 500px;
+    left:15px;
+    width:100px;
+    bottom: 100px;
+}
+
+.main{
+    background-color: white;
+    border:2px black;
+    position:absolute;
+    text-align: center;
+
+}
+
+.right{
+    width: 400px;
+    height: 225px;
+    top: 530px;
+    right: 555px;
+    bottom: 5px;
+}
+
+.footer{
+    width:200px;
+    height:100%;
+    height: 50px;
+    bottom: 25px;
+}
+
+.back{
+    color:aliceblue;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    top: 10px
+}
+
+.graph{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    top:775px;
+    left:300px;
+    right:300px; 
+    height:80px;
+}
+
+.list{
+    width: 175px;
+    height: 225px;
+    top: 107px;
+    right: 1045px;
+    bottom: 5px;
+}
+
+.list2{
+    width: 175px;
+    height: 225px;
+    top: 107px;
+    right: 810px;
+    bottom: 5px; 
+}
+
+.list3{
+    width: 175px;
+    height: 225px;
+    top: 107px;
+    right: 585px;
+    bottom: 5px; 
+}
+
+.list4{
+    width: 150px;
+    height: 225px;
+    top: 107px;
+    right: 360px;
+    bottom: 5px; 
+}

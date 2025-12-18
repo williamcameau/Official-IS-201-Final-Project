@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Cameau – Professional Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .page-wrapper {
+            display: flex;
+            gap: 40px;
+            max-width: 1400px;
+            width: 100%;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        /* LEFT SIDEBAR */
+        .sidebar {
+            width: 320px;
+            flex-shrink: 0;
+        }
+
+        .sidebar-links {
+            background: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .sidebar-links h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .sidebar-links ul {
+            list-style: none;
+        }
+
+        .sidebar-links li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar-links a {
+            color: #2563eb;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .sidebar-links a:hover {
+            color: #1d4ed8;
+            text-decoration: underline;
+        }
+
+        .sidebar-photo img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        /* MAIN CONTENT */
+        .main-container {
+            flex: 1;
+        }
+
+        header {
+            margin-bottom: 40px;
+            border-bottom: 3px solid #333;
+            padding-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #666;
+            font-style: italic;
+        }
+
+        .section-box {
+            margin-bottom: 35px;
+        }
+
+        .section-box h2 {
+            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .entry {
+            margin-bottom: 25px;
+        }
+
+        .entry h3 {
+            color: #444;
+            font-size: 1.3em;
+            margin-bottom: 5px;
+        }
+
+        .date {
+            color: #666;
+            font-weight: normal;
+            font-size: 0.9em;
+        }
+
+        .role {
+            color: #555;
+            font-size: 1.1em;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .entry ul {
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+
+        .entry li {
+            margin-bottom: 8px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .section-box p {
+            font-size: 1.1em;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        .tableauPlaceholder {
+            margin-top: 30px;
+            width: 100%;
+            height: 600px;
+        }
+
+        .tableauViz {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 900px) {
+            .page-wrapper {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .sidebar {
+                width: 100%;
+                max-width: 400px;
+            }
+
+            .main-container {
+                width: 100%;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page-wrapper">
+    <!-- LEFT SIDEBAR -->
+    <div class="sidebar">
+        <!-- LINKS BOX -->
+        <div class="sidebar-links">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="scratch.html">About Me Page</a></li>
+                <li><a href="game.html" target="_blank">My Game</a></li>
+                <li><a href="https://www.linkedin.com/in/william-cameau-91707b240/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+
+        <!-- PHOTO -->
+        <div class="sidebar-photo">
+            <img src="Images/me.jpg" alt="Photo of William Cameau">
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT (RIGHT SIDE) -->
+    <div class="main-container">
+        <header>
+            <h1>William Cameau</h1>
+            <p class="subtitle">Professional Resume & Career Overview</p>
+        </header>
+
+        <section class="section-box">
+            <h2>Education</h2>
+
+            <div class="entry">
+                <h3>Utah County Academy of Sciences <span class="date">• May 2023</span></h3>
+                <ul>
+                    <li>High School Diploma</li>
+                    <li>3.66 GPA</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>Utah Valley University <span class="date">• May 2023</span></h3>
+                <ul>
+                    <li>Associates of Science</li>
+                    <li>3.29 GPA</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section-box">
+            <h2>Work Experience</h2>
+
+            <div class="entry">
+                <h3>City of Orem Recreation Center <span class="date">• Nov 2022 – Aug 2023</span></h3>
+                <h4 class="role">Front Desk Clerk</h4>
+                <ul>
+                    <li>Handled cash and credit transactions with accuracy and detail.</li>
+                    <li>Informed patrons about memberships, passes, and services clearly and concisely.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>Trez Clear Aligners <span class="date">• May 2023 – Aug 2023</span></h3>
+                <h4 class="role">Dental Lab Assistant</h4>
+                <ul>
+                    <li>Produced high-quality clear aligners using specialized lab tools.</li>
+                    <li>Delegated tasks to maintain efficient production workflow.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section-box">
+            <h2>Volunteer Experience</h2>
+
+            <div class="entry">
+                <h3>Church of Jesus Christ of Latter-Day Saints <span class="date">• Aug 2023 – Aug 2025</span></h3>
+                <h4 class="role">Teaching Missionary – Suva, Fiji</h4>
+                <ul>
+                    <li>Planned daily activities and lessons for 9–10 hours of service.</li>
+                    <li>Trained and encouraged fellow missionaries in leadership roles.</li>
+                    <li>Taught structured 15–30 minute Gospel lessons to individuals and families.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section-box">
+            <h2>Interests & Abilities</h2>
+
+            <div class="entry">
+                <h3>Languages</h3>
+                <ul>
+                    <li>Professional Working Fijian</li>
+                    <li>Intermediate Mandarin</li>
+                    <li>Novice French</li>
+                    <li>Elementary Indonesian</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Piano</li>
+                    <li>Ukulele</li>
+                    <li>Guitar</li>
+                    <li>Skateboarding</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section-box">
+            <h2 class="center">Career Goals</h2>
+            <p>#1 Foreign Service Agent</p>
+            <p class="center">#2 Purchaser / Negotiator</p>
+            <p class="right">#3 Entrepreneur</p>
+
+            <div class="tableauPlaceholder">
+                <object class='tableauViz'
+                        type='text/html'
+                        data='https://public.tableau.com/views/Tale-of-100-Entrepreneurs_10_0_0/Taleof100Entrepreneurs?:embed=y&:display_count=y&:showVizHome=no'>
+                </object>
+            </div>
+        </section>
+    </div>
+</div>
+
+</body>
+</html>

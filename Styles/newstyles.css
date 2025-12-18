@@ -1,0 +1,86 @@
+body{
+    color: black;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    font: size 36px;
+    color: darkblue;
+    text-align:center;
+}
+
+h2{
+    color:navy;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p{
+    font-size: 21px;
+}
+
+li{
+    font-size:18px;
+}
+
+#pinkparagraph{
+    color:pink
+}
+
+.pretty{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ugly{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.common{
+    background-color: transparent;
+    border: 2px black;
+    position: absolute;
+    text-align: center;
+}
+
+.left{
+    top: 500px;
+    left:15px;
+    width:100px;
+    bottom: 100px;
+}
+
+.main{
+    top:15px;
+    right:500px;
+    width:400px;
+    bottom: 565px;
+}
+
+.right{
+    top: 90px;
+    width:100px;
+    right: 350px;
+    bottom:400px;
+}
+
+.righttext{
+    right:50px;
+    top:1460px;
+}
+
+.footer{
+    bottom:5px;
+    left:15px;
+    right:25px;
+    height: 50px;
+}
+
+.back{
+    color:aliceblue;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    top: 10px
+}
